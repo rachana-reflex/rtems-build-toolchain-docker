@@ -25,7 +25,7 @@ Please note that identifier `rtemsbuild` is just an example and feel free to cha
 
 ## Clean up docker/existing images
 
-To get rid of unused images, use
+To get rid of unused images, use the following command, but keep in mind that it might affect other existing Docker images on your machine!
 ```code sh
 docker system prune
 ```
