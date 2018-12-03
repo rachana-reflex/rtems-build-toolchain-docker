@@ -3,6 +3,8 @@
 
 This repo contains a Dockerfile which can be used to build RTEMS toolchain with Docker. The Dockerfile will fetch [RTEMS build scripts](https://github.com/CTrocks/rtems-build-scripts) from github for the build. For further info on the build process itself, see project [RTEMS build scripts](https://github.com/CTrocks/rtems-build-scripts).
 
+In case you want to build RTEMS toolchain without Docker, just use the scripts located at [RTEMS build scripts](https://github.com/CTrocks/rtems-build-scripts) and follow the instructions found in project's README.md.
+
 ## How to use
 
 To make use of Dockerfile, docker.io must be installed on the system, e.g. for Debian-based distributions, this can be done by
