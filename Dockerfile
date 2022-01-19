@@ -64,7 +64,8 @@ RUN chmod a+rw $INSTALL_DIR
 RUN apt-get -qq update && apt-get -qq -y install git
 
 # fetch build scripts
-RUN git clone https://github.com/CTrocks/rtems-build-scripts $BUILD_TOOLS_PATH
+# RUN git clone https://github.com/CTrocks/rtems-build-scripts $BUILD_TOOLS_PATH
+RUN git clone https://github.com/rachana-reflex/rtems-build-scripts $BUILD_TOOLS_PATH
 
 # ensure scripts are executable
 RUN chmod +x $BUILD_TOOLS_PATH/run.sh
